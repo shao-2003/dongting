@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>湖南洞庭新实业集团</title>
+    <style>
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 20px 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #45a049;
+    border-radius: 4px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+.dropdown-content a:hover {
+    background-color: #45a049;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+
+.search-box input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.search-box button {
+    padding: 8px 15px;
+    background-color: #45a049;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+    background-color: #3d8b40;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.section p {
+    font-size: 16px;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 40px;
+}
+    </style>
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="logo">
+            <div class="">
+                ::before
+                <div class="">
+                    <div class="">
+                        <p class="">欢迎来到湖南洞庭新实业有限公司官网！</p>
+                    </div>
+                    <div class="">
+                        <img src="D:\桌面\code test\html\logo.png" alt="湖南洞庭新实业集团"><p>湖南洞庭新实业集团</p>
+                    </div>
+                    <div class="">
+                        <img src="D:\桌面\code test\html\telphone.png">
+                        <div class="">
+                            <p>联系电话：</p>
+                            <p>0731-2268406</p>
+                        </div>
+                    </div>
+                </div>
+                ::after
+            </div>
+            
+        </div>
+        <div>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li class="dropdown">
+                    <a href="#about">公司简介</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#history">公司历史</a></li>
+                        <li><a href="#culture">企业文化</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#news">公司资讯</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#news1">新闻动态</a></li>
+                        <li><a href="#notice">通知公告</a></li>
+                    </ul>
+                </li>
+                <li><a href="#investment">招商引资</a></li>
+                <li><a href="#projects">项目展示</a></li>
+                <li><a href="#team">团队风采</a></li>
+                <li><a href="#party">党群工作</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </div>
+        <div class="search-box">
+            <input type="text" placeholder="搜索...">
+            <button>搜索</button>
+        </div>
+    </header>
+
+    <!-- 轮播图 -->
+    <section class="carousel">
+        <div class="slides">
+            <img src="D:\桌面\code test\html\a.jpg" alt="Slide 1">
+            <img src="D:\桌面\code test\html\b.jpg" alt="Slide 2">
+            <img src="D:\桌面\code test\html\c.jpg" alt="Slide 3">
+        </div>
+    </section>
+
+    <!-- 内容区域 -->
+    <main>
+        <section id="home" class="section">
+            <h2>欢迎来到湖南洞庭新实业集团</h2>
+            <p>我们致力于打造绿色、创新、可持续发展的企业。</p>
+        </section>
+        <section id="about" class="section">
+            <h2>公司简介</h2>
+            <p>湖南洞庭新实业集团成立于XXXX年，是一家专注于XXX领域的企业。</p>
+        </section>
+        <section id="news" class="section">
+            <h2>公司资讯</h2>
+            <p>了解最新的公司动态和行业资讯。</p>
+        </section>
+        <section id="investment" class="section">
+            <h2>招商引资</h2>
+            <p>欢迎各界合作伙伴与我们携手共进。</p>
+        </section>
+        <section id="projects" class="section">
+            <h2>项目展示</h2>
+            <p>展示我们的成功项目和未来规划。</p>
+        </section>
+        <section id="team" class="section">
+            <h2>团队风采</h2>
+            <p>我们的团队由一群充满激情和创造力的人才组成。</p>
+        </section>
+        <section id="party" class="section">
+            <h2>党群工作</h2>
+            <p>党建引领企业发展，共创美好未来。</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>联系我们</h2>
+            <p>地址：湖南省XXX市XXX区XXX路XXX号</p>
+            <p>电话：0731-XXXXXXX</p>
+            <p>邮箱：info@dongtinggroup.com</p>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2023 湖南洞庭新实业集团. 保留所有权利.</p>
+    </footer>
+
+    <script >
+        // script.js
+document.addEventListener('DOMContentLoaded', function() {
+    const slides = document.querySelector('.slides');
+    const images = document.querySelectorAll('.slides img');
+    let currentIndex = 0;
+
+    function showSlide(index) {
+        const offset = -index * 100;
+        slides.style.transform = `translateX(${offset}%)`;
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % images.length;
+        showSlide(currentIndex);
+    }
+
+    setInterval(nextSlide, 3000); // 每3秒切换一次
+
+    // 导航栏点击跳转
+    document.querySelectorAll('nav ul li a').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            document.querySelector(targetId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+});
+    </script>
+</body>
+</html>

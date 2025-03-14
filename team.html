@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>团队风采 - 湖南洞庭智数科技有限公司</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: white;
+            padding: 10px 40px;
+            border-bottom: 1px solid #ddd;
+        }
+        header .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        header .logo img {
+            height: 50px;
+        }
+        header .logo h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px 15px;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #4CAF50;
+            border-radius: 4px;
+        }
+        main {
+            padding: 20px 100px;
+        }
+        .news-section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .news-section h2 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+        .news-section p {
+            margin: 10px 0;
+        }
+        .org-chart {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .org-chart img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .departments {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 两栏布局 */
+            gap: 40px; /* 增加模块之间的间隔 */
+            margin-top: 20px;
+        }
+        .department {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+        .department:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .department h3 {
+            color: #4CAF50;
+            margin-top: 0;
+        }
+        .department p {
+            margin: 10px 0;
+        }
+        .department a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        footer {
+            text-align: left;
+            padding: 40px 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+        footer .contact-info {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        footer h2 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+        footer p {
+            margin: 10px 0;
+        }
+        footer .copyright {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src=".\logo.png" alt="湖南洞庭智数科技有限公司">
+            <h1>湖南洞庭智数科技有限公司</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">公司简介</a></li>
+            <li><a href="news.html">公司资讯</a></li>
+            <li><a href="investment.html">招商引资</a></li>
+            <li><a href="projects.html">项目展示</a></li>
+            <li><a href="team.html">团队风采</a></li>
+            <li><a href="party.html">党群工作栏</a></li>
+            <li><a href="#contact">联系我们</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="news-section">
+            <h2>团队风采</h2>
+            <p>湖南洞庭智数科技有限公司拥有一支充满活力、专业高效的团队，致力于为客户提供最优质的服务和解决方案。</p>
+            <p>以下是我们的组织架构和各部门介绍：</p>
+
+            <div class="org-chart">
+                <img src="https://ts1.tc.mm.bing.net/th/id/R-C.77373746c83d90bf9ace7d163af085d6?rik=O9OwSkTwlOFXbQ&riu=http%3a%2f%2fwww.gzyyxchjjc.com%2fdata%2fupload%2fimage%2f20180925%2f1537857362294529.png&ehk=Ysxt%2bhL4RJl2wrl88iHUatUakWV2FP%2bSmR3BqUO%2b%2f00%3d&risl=&pid=ImgRaw&r=0" alt="公司组织架构图">
+            </div>
+
+            <div class="departments">
+                <div class="department">
+                    <a href="management.html">
+                        <h3>管理层</h3>
+                        <p>负责公司整体战略规划和决策，确保公司高效运作和持续发展。</p>
+                    </a>
+                </div>
+                <div class="department">
+                    <a href="rd.html">
+                        <h3>技术研发部</h3>
+                        <p>负责新技术研发和创新，推动公司在行业内的技术领先地位。</p>
+                    </a>
+                </div>
+                <div class="department">
+                    <a href="marketing.html">
+                        <h3>市场营销部</h3>
+                        <p>负责市场调研、品牌推广和客户关系管理，提升公司市场竞争力。</p>
+                    </a>
+                </div>
+                <div class="department">
+                    <a href="customer-service.html">
+                        <h3>客户服务部</h3>
+                        <p>为客户提供全方位支持和服务，确保客户满意度和忠诚度。</p>
+                    </a>
+                </div>
+                <div class="department">
+                    <a href="hr.html">
+                        <h3>人力资源部</h3>
+                        <p>负责人才招聘、培训和员工关系管理，打造高素质团队。</p>
+                    </a>
+                </div>
+                <div class="department">
+                    <a href="finance.html">
+                        <h3>财务部</h3>
+                        <p>负责公司财务管理和资金运作，确保财务健康和稳定。</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="contact-info">
+            <h2>联系我们</h2>
+            <p>地址：湖南省XXX市XXX区XXX路XXX号</p>
+            <p>电话：0731-XXXXXXX</p>
+            <p>邮箱：info@dongtinggroup.com</p>
+        </div>
+        <p class="copyright">&copy; 2024 湖南洞庭智数科技有限公司. 保留所有权利.</p>
+    </footer>
+</body>
+</html>
